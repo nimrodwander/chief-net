@@ -1,0 +1,19 @@
+.subDatakCommanders{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.technicians{
+    
+}
+
+.datak:hover, .datak{
+    padding: 20px;
+}
+.datak:hover{
+    background-color: #dde;
+    cursor: pointer;
+}

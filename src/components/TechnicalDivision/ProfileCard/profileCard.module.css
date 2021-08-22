@@ -1,0 +1,177 @@
+.profileCard {
+  height: 200px;
+  width: 350px;
+  padding: 15px;
+  box-shadow: 1px 1px 10px rgb(189, 189, 189);
+
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 50px;
+}
+
+.profileImageDiv {
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 300px;
+  background-color: var(--main-grey-color);
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 100%;
+
+  text-align: center;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+  height: 100%;
+
+  text-align: right;
+}
+
+
+.profileDataInput{
+  background-color: var(--main-grey-color);
+  padding: 7px;
+  margin: 3px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.nameDiv {
+  width: 70%;
+  transform: skew(var(--transform-angle));
+  background: var(--main-blue-color);
+  max-width: 70%;
+  padding: 0px 5px;
+}
+
+h2 {
+  color: var(--main-white-color);
+  font-size: 20px;
+  margin: 5px;
+  transform: skew(var(--transform-balancing-angle));
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+h4 {
+  margin: 10px 0px;
+  margin: 7px 20px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.profileCard {
+  height: 200px;
+  width: 350px;
+  padding: 15px;
+  box-shadow: 1px 1px 10px rgb(189, 189, 189);
+
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.leftBtn {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  border-radius: 300px;
+  width: 20px;
+  height: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 0%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.topBtn {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  border-radius: 300px;
+  width: 20px;
+  height: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 50%;
+  top: 0%;
+  transform: translate(0%, -50%);
+}
+
+.rightBtn {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  border-radius: 300px;
+  width: 20px;
+  height: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 100%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.bottomBtn {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--main-green-color);
+  border-radius: 300px;
+  width: 20px;
+  height: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 50%;
+  top: 100%;
+  transform: translate(0%, -50%);
+}

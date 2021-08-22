@@ -1,0 +1,19 @@
+.technicalOfficer{
+
+}
+
+.departments{
+     display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.dataks{
+     display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+}

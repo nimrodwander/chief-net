@@ -1,0 +1,24 @@
+:root{
+    --transform-angle: 20deg;
+    --transform-balancing-angle: calc(360deg - var(--transform-angle));
+    --main-blue-color: #24408E;
+    --main-white-color: white;
+}
+
+.editBtn{
+    background-color: var(--main-blue-color);
+    color: var(--main-white-color);
+    width: 45px;
+    height: 45px;
+    border-radius: 300px;
+    cursor: pointer;
+
+    position: fixed;
+    z-index: 99999;
+    left: 40px;
+    bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

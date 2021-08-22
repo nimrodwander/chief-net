@@ -1,0 +1,102 @@
+.navbar{
+    width: 100%;
+    background-color: white;
+
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    padding: 0px ;
+
+    height: 65px;
+    background: var(--main-blue-color);
+    box-shadow: 0px 0px 10px rgb(214, 214, 214);
+
+    color: white;
+
+}
+
+.userDataDiv{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.userImage{
+    border-radius: 3000px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--main-grey-color);
+
+}
+
+.NameRoleDiv{
+ text-align: right;   
+}
+
+.userName{
+    white-space: nowrap;
+    overflow: none;
+    margin: 1px;
+    width: 100%;
+}
+
+.userRole{
+    margin: 1px;
+    color: var(--main-gold-color);
+}
+
+.flowControlDivMenu {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 10%;
+    min-width: 200px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+
+
+.saveButton{
+    width: 40px;
+    height: 40px;
+    border-radius: 2000px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+
+    background-color:  #00A600;
+}
+
+.cancelButton{
+    width: 40px;
+    height: 40px;
+    border-radius: 2000px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+
+    background-color: #E70000;
+}
+
+.hamburgerMenuIcon{
+    background-color: rgba(rgb(255, 255, 255), 0.1);
+}
+
+.profileSearch{
+    position: relative;
+    left: 4vw;
+
+    padding: 10px 10px;
+    width: 20vw;
+}
